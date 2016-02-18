@@ -49,12 +49,12 @@
     "config": {
         "preferred-install": "dist"
     }
-    "repositories": [
+    "repositories" [
     {
     "type": "package",
     "package": {
         "name": "wijkteam", //give package name to anything, must be unique
-        "version": "1.0",
+        "version": "vcs",
         "source": {
             "url": "https://github.com/bj0rno/wijkteam.git", //git url
             "type": "git",
