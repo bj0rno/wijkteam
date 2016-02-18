@@ -49,20 +49,5 @@
     "config": {
         "preferred-install": "dist"
     }
-    "repositories" [
-    {
-    "type": "package",
-    "package": {
-        "name": "wijkteam", //give package name to anything, must be unique
-        "version": "vcs",
-        "source": {
-            "url": "https://github.com/bj0rno/wijkteam.git", //git url
-            "type": "git",
-            "reference": "master" //git branch-name
-        }
-    }
-}],
-"require" : {
-  "example-package-name": "1.0"
-}
+    
 }
