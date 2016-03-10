@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
 
-    </head>
-    <body>
-    </body>
+
+<html>
+    {{ link_to_action('NewController@new', 'lala')  }}
 </html>

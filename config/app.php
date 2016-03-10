@@ -148,6 +148,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         'Cartalyst\Sentinel\Laravel\SentinelServiceProvider',
+        Collective\Html\HtmlServiceProvider::class,
 
 
         /*
@@ -157,6 +158,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
 
     ],
 
@@ -206,6 +208,8 @@ return [
         'Activation' => 'Cartalyst\Sentinel\Laravel\Facades\Activation',
         'Reminder'   => 'Cartalyst\Sentinel\Laravel\Facades\Reminder',
         'Sentinel'   => 'Cartalyst\Sentinel\Laravel\Facades\Sentinel',
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
